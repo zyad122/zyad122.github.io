@@ -1,0 +1,226 @@
+*{
+    margin: 0PX;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.loga{
+    padding-left: 90PX;
+    font-size: 30px;
+    font-weight: 500;
+    text-decoration: none;
+    color: blue;
+}
+div ul{
+    list-style: none;
+    padding-right: 100px;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+header li{
+    padding-right: 20px;
+}
+header li a{
+    text-decoration: none;
+    color: blue;
+}
+header li a:hover{
+    color: black;
+    border-bottom: 2px solid black;
+}
+section{
+    padding: 100px 200px;
+}
+.main{
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    background-image: url(img/bac.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.main h2{
+    color: #FFFF;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+   margin-right: 60px;
+}
+.main h3{
+    color: #fFF;
+    font: size 25px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+
+}
+.main a{
+    text-decoration: none;
+    color: #fFFF;
+    padding: 15px 50px;
+    border: 1px solid ;
+    border-radius: 15px;
+    background-color: blue;
+    
+    margin-left: 50px;
+}
+.main a:hover{
+    background-color: black;
+}
+section h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    color: blue;
+    margin-bottom: 50px;
+}
+.contain{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap:wrap;
+    margin-top: 30px;
+
+}
+.subject{
+    background: #000138ee;
+    width: 100%
+}
+.subject-card{
+    width: 400px;
+    background-color: #fFFF;
+    border: 5px solid #fFFF;
+    border-radius: 10px;
+    margin: 40px;
+    transition: 0.6s ease;
+}
+.subject-card:hover{
+    transform: scale(1.1);
+}
+.image img{
+    width:100%;
+}
+.info{
+    padding: 5px;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.details a{
+    text-decoration: none;
+    color: blue;
+}
+.details a:hover{
+    color: black;
+
+}
+
+.contact-info h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-align: start;
+   margin-left: 10px;
+    color: black;
+}
+.contact-info P{
+    font-size: 23px;
+margin: 30px;
+}
+.contact-info h3{
+margin: 30px;
+font-size: 30px;
+}
+.contact-info a{
+    font-size: 23px;
+    margin: 30px 10px;
+    
+}
+.add{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   background-image: url(img/IMG.jpeg);
+}
+
+footer h2{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+input{
+    width: 150px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+button{
+    padding: 5px 10px;
+}
+button:hover{
+    background-color: black;
+    color: blue;
+}
+.DD{
+    background-image: url(img/IMG.jpeg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    margin-top: 250px;
+}
+table{
+    width: 450px;
+    height: 300px;
+}
+table th{
+    color: #fFF;
+    font-size: 30px;
+    font-weight: 600;
+}
+table td{
+    color:#ffff;
+    font-size: 24px;
+    font-weight: 500;
+}
+@media (max-width: 768px){
+    .subject-card{
+        width: 100%;
+    }
+
+    section{
+        padding: 50px;
+    }
+}
+@media (max-width: 768px){
+
+    .loga{
+        padding-left: 20px;
+        font-size: 20px;
+    }
+
+    div ul{
+        flex-direction: column; /* يخليهم تحت بعض */
+        align-items: center;
+        width: 100%;
+    }
+
+    header li{
+        padding: 10px 0;
+    }
+}
